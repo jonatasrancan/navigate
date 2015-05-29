@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/jonatasrancan/navigate.svg?branch=master)](https://travis-ci.org/jonatasrancan/navigate)
 ## navigate
 
 A simple gem with some functions, to calculate the distance, bearing between two positions or
