@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/jonatasrancan/navigate.svg?branch=master)](https://travis-ci.org/jonatasrancan/navigate)
+[![Gem Version](https://badge.fury.io/rb/navigate.svg)](http://badge.fury.io/rb/navigate)
 ## navigate
 
 A simple gem with some functions, to calculate the distance, bearing between two positions or
@@ -60,23 +61,23 @@ It receive a hash of options to pass the bearing, distance and the unit of the d
 
 ```ruby
 Navigate::bearing(position1, bearing: 180.0, distance: 150, radius_unit: 'FT')
-# => #<Navigate::Position:0x00000003e9b198 @latitude=-90.0, @longitude=-180.0> 
+# => #<Navigate::Position:0x00000003e9b198 @latitude=-90.0, @longitude=-180.0>
 ```
 
 Contributing to navigate
------------------------- 
+------------------------
  Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
- 
+
  Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
- 
+
  Fork the project.
- 
+
  Start a feature/bugfix branch.
- 
+
  Commit and push until you are happy with your contribution.
- 
+
  Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
- 
+
  Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
 License

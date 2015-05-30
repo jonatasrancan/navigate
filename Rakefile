@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "navigate"
   gem.homepage = "http://github.com/jonatasrancan/navigate"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A gem to help you calculate the distance, bearing or the next position on the globe}
+  gem.description = %Q{A gem to help you calculate the distance, bearing or the next position on the globe}
   gem.email = "jonatasrancan@gmail.com"
   gem.authors = ["Jônatas Rancan de Souza"]
   # dependencies defined in Gemfile

@@ -6,24 +6,24 @@
 
 Gem::Specification.new do |s|
   s.name = "navigate"
-  s.version = "0.0.0"
+  s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["J\u{f4}natas Rancan de Souza"]
   s.date = "2015-05-28"
-  s.description = "TODO: longer description of your gem"
+  s.description = "A gem to help you calculate the distance, bearing or the next position on the globe"
   s.email = "jonatasrancan@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".document",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
     "VERSION",
     "lib/navigate.rb",
@@ -36,7 +36,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/jonatasrancan/navigate"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.4.3"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "A gem to help you calculate the distance, bearing or the next position on the globe"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
