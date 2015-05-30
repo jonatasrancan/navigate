@@ -52,7 +52,7 @@ Navigate::bearing(position1, position2)
 ```ruby
 position1 = Navigate::Position.new(-90.0, 180.0)
 
-Navigate::bearing(position1)
+Navigate::destination(position1)
 # => #<Navigate::Position:0x00000003edc7b0 @latitude=-89.10067966450693, @longitude=-90.0>
 ```
 By default the function will use a bearing = 90.0, distance = 100 KM
@@ -60,7 +60,7 @@ By default the function will use a bearing = 90.0, distance = 100 KM
 It receive a hash of options to pass the bearing, distance and the unit of the distance
 
 ```ruby
-Navigate::bearing(position1, bearing: 180.0, distance: 150, radius_unit: 'FT')
+Navigate::destination(position1, bearing: 180.0, distance: 150, radius_unit: 'FT')
 # => #<Navigate::Position:0x00000003e9b198 @latitude=-90.0, @longitude=-180.0>
 ```
 
