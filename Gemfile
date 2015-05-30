@@ -13,6 +13,8 @@ group :development do
   gem "simplecov", ">= 0"
 end
 
+gem 'coveralls', require: false
+
 group :test do
   gem 'rake'
 end
