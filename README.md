@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/jonatasrancan/navigate.svg?branch=master)](https://travis-ci.org/jonatasrancan/navigate)
 [![Gem Version](https://badge.fury.io/rb/navigate.svg)](http://badge.fury.io/rb/navigate)
+[![Coverage Status](https://coveralls.io/repos/jonatasrancan/navigate/badge.svg?branch=master)](https://coveralls.io/r/jonatasrancan/navigate?branch=master)
 ## navigate
 
 A simple gem with some functions, to calculate the distance, bearing between two positions or
