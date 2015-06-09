@@ -22,8 +22,6 @@ module Navigate
     def valid?
       valid_latitude?
       valid_longitude?
-
-      true
     end
   end
 end
