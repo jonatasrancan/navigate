@@ -6,12 +6,12 @@
 
 Gem::Specification.new do |s|
   s.name = "navigate"
-  s.version = "1.1.0"
+  s.version = "1.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["J\u{f4}natas Rancan de Souza"]
-  s.date = "2015-05-28"
+  s.date = "2015-06-08"
   s.description = "A gem to help you calculate the distance, bearing or the next position on the globe"
   s.email = "jonatasrancan@gmail.com"
   s.extra_rdoc_files = [
